@@ -1,0 +1,69 @@
+@keyframes strobe {
+    0%, 100% {
+        background-color: #f4f4f4;
+    }
+    50% {
+        background-color: #e0e0e0;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    animation: strobe 2s infinite;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: strobe 2s infinite;
+}
+
+.logo {
+    margin-left: 130px;
+    display: block;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    animation: strobe 2s infinite;
+}
+
+.city-video {
+    width: 80vh;
+    height: 80vh;
+    margin-right: 20px;
+}
+
+.content {
+    flex: 1;
+    color: #000;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+animation: strobe 2s infinite;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: left;
+}
+
+.date {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+    text-align: left;
+}
+
+
+}

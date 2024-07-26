@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1>
+        <div class="h1"
+   <b> <p>TOFA TRAVEL AND TOURS</p></b>
+   </h1>
+</head></div>
+<bground img="">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+
+            .h1 {padding-left: 30%;
+                 font-family: Georgia, 'Times New Roman', Times, serif;
+
+            
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('seamospue.jpeg'); /*se*/
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0%;
+            
+        }
+
+       .container {
+            background-color: rgb(241, 234, 147);
+            width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: left;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 20px;
+            color: #900e0e;
+        }
+
+       .form-group {
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="email"] {
+            width: 70%;
+            padding: 10px;
+            border: px solid #ddd;
+            border-radius: 15%;
+            box-sizing: border-box;
+        }
+
+       .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+       .btn:hover {
+            background-color: #45a049;
+        }
+
+       .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="close" onclick="closeLogin()">×</span>
+        <h2>Log in</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">email address<br>
+                </label>
+                <input type="email" id="email" name="email" placeholder="enter user@gmail.com" required>
+            </div>
+            
+            <a href="homepage.html" class="btn">Submit</button>
+            
+    
+        </form>
+    </div>
+    <script>
+        function closeLogin() {
+            // Add logic here to close the login form.
+            // For example, you might hide the container or redirect to another page.
+            document.querySelector('.container').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
