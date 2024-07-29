@@ -121,15 +121,6 @@ nav ul li a {
     cursor: pointer;
 }
 
-.basic-info {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
-    padding-top: 50px;
-    padding-left: 50px;
-    flex:1;
-    justify-content: center;
-}
-
 .agent-login {
     margin-right: 10px;
 }
@@ -182,9 +173,21 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 20px 0;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 footer nav ul li a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
